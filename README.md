@@ -1,4 +1,4 @@
-# ABSTRACT
+# Abstract
 
 Rural land use classification has many usages in a wide range of fields, including food security, disaster 
 management, tourism development, and rural development. This leads to a significant need to carry out surveys for land use in the 
