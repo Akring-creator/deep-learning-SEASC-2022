@@ -1,13 +1,22 @@
-# Abstract
+# Rural Land Use Classification using U-Net  
 
-Rural land use classification has many usages in a wide range of fields, including food security, disaster 
-management, tourism development, and rural development. This leads to a significant need to carry out surveys for land use in the 
-rural region. On-field surveys by expert surveyors are currently the main approach, but difficult and limited access to the survey 
-location makes this approach often expensive and laborious, especially for large-scale survey tasks. Seeing the successful 
-implementation of deep-learning technology for semantic segmentation, this study's goal is to explore an alternative workflow based 
-on the U-Net model architecture to apply automatic multi-class classification for land use in rural regions. U-Net is a deep learning 
-model architecture that has been tested by many researchers and gives positive results for semantic segmentation. We experime nted 
-on 765 orthophoto images and masks dataset consist 9 land use classes from Padasuka Village in West Java. Padasuka village is an 
-agricultural village where the most dominant land use is used to grow staple crops. Experimental results calculated by Jaccard Index, 
-show a value of 0.8458 for the train set and 0.46537 for the test set. It shows that the presented model architecture needs to be 
-improved but has the potential to be used as an alternative for multi-class semantic segmentation in rural regions.
+This project explores an automated workflow for multi-class rural land use classification using a U-Net-based deep learning model. The goal is to provide an alternative to traditional (and costly) field surveys by leveraging semantic segmentation on orthophoto imagery.  
+
+## Key Features  
+- **U-Net Architecture**: Implements a proven deep learning model for semantic segmentation.  
+- **Multi-Class Classification**: Covers 9 land use classes in rural regions (e.g., agriculture, settlements).  
+- **Dataset**: 765 orthophoto images and masks from Padasuka Village, West Java—a predominantly agricultural area.  
+- **Metrics**: Evaluated using the Jaccard Index (IoU).  
+
+## Results  
+- Training set IoU: **0.8458**  
+- Test set IoU: **0.46537**  
+
+While the model shows promise, further improvements are needed to enhance generalization on unseen data.  
+
+## Dataset  
+The dataset consists of orthophoto images and corresponding masks from **Padasuka Village, West Java**, labeled with 9 land use classes. Example classes:  
+- Staple crop fields  
+- Settlements  
+- Roads  
+- Water bodies  
